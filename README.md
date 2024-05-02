@@ -19,6 +19,9 @@ This repository hosts our group's submission for Task Sheet 2 of Collective robo
 
 **Analysis of Each Radius**
 
+![plot1.png](https://github.com/minsol21/CRS02/blob/main/plot1.png)
+
+
 1. Radius 0.05 (Blue Line)
    - The blue line shows moderate fluctuations in the number of flashing fireflies, but the overall trend is fairly consistent without extreme peaks or troughs. This suggests that with a small radius, fireflies have fewer neighbors, resulting in less synchronization across the entire swarm.
 
