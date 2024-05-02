@@ -37,6 +37,7 @@ This repository hosts our group's submission for Task Sheet 2 of Collective robo
 - *Stability and Chaos*: Larger radii can also introduce more chaotic dynamics as fireflies are influenced by a larger number of neighbors. This can lead to rapid changes in the state of synchronization, which might explain the more chaotic appearance of the red graph.
 
 **Conclusion**
+
 From these observations, a larger radius generally leads to better synchronization among fireflies, as seen with the radius of 1.4, where the fluctuations are pronounced and regular, indicating strong collective behavior. However, the optimal radius for achieving synchronization without introducing too much chaos would need to balance these aspects, possibly favoring a slightly smaller radius than 1.4 to reduce the chaos while still maintaining good synchronization. Further analysis could involve looking at the specific dynamics at each radius to determine the best balance between radius size and synchronization efficiency.
 
 
