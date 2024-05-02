@@ -52,6 +52,8 @@ From these observations, a larger radius generally leads to better synchronizati
 
 **Analysis of the Graph**
 
+![plot1.png](https://github.com/minsol21/CRS02/blob/main/plot2.png)
+
 The graph shows a non-linear relationship between the vicinity radius and the synchronization amplitude:
 
 - Low Radius (0.0 to ~0.6): Initially, the amplitude is relatively lower and fluctuates as the radius increases. This region indicates partial synchronization, where only nearby fireflies influence each other significantly due to the smaller interaction radius. The fluctuations in this region could be due to local clusters of fireflies achieving synchronization while others remain out of phase.
