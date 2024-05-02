@@ -45,3 +45,25 @@ From these observations, a larger radius generally leads to better synchronizati
 - analyze_synchronization.py is used for the task2.1b in the file Task2_1_b_m.py
 - plot2.png is the result of Task2_1_b_m.py
 
+- The plot2.png shows the average synchronization amplitude as a function of the vicinity radius for a group of simulated fireflies. The synchronization amplitude refers to half the difference between the maximum and minimum number of fireflies flashing concurrently during the last cycle of each simulation. This metric is useful to understand how tightly coupled the flashing behavior is across the swarm.
+
+**Analysis of the Graph**
+
+The graph shows a non-linear relationship between the vicinity radius and the synchronization amplitude:
+
+- Low Radius (0.0 to ~0.6): Initially, the amplitude is relatively lower and fluctuates as the radius increases. This region indicates partial synchronization, where only nearby fireflies influence each other significantly due to the smaller interaction radius. The fluctuations in this region could be due to local clusters of fireflies achieving synchronization while others remain out of phase.
+
+- Intermediate Radius (~0.6 to ~1.0): As the radius increases, the amplitude generally rises, peaking around a radius of 1.0. This peak represents a high degree of synchronization across the entire swarm, suggesting that the interaction radius is optimal for most fireflies to influence and be influenced by their neighbors effectively, leading to a more unified flashing pattern.
+
+- High Radius (~1.0 to 1.4): Beyond the peak, the amplitude sharply declines as the radius continues to increase. This decline can be interpreted as too large a radius causing too much interaction, which paradoxically might reduce the synchronization. When every firefly influences nearly every other, individual groups might start flashing in response to different subsets of the swarm, leading to a breakdown in the overall synchronization.
+
+**Interpretation and Implications**
+
+- *Optimal Radius*: The vicinity radius of around 1.0 appears to be optimal for achieving the highest synchronization amplitude. This radius likely balances the breadth of influence each firefly has over others, maximizing the number of fireflies that can synchronize their flashing without introducing discrepancies caused by overly widespread influences.
+
+- *Swarm Density Considerations*: Higher synchronization at optimal radi suggests that the density and distribution of fireflies are appropriate for such a radius to work effectively. If the density were significantly different, the optimal radius might shift. This observation is crucial for understanding how firefly swarms might adapt their behavior in different ecological conditions or how similar principles could be applied in technological applications like drone swarming algorithms.
+
+**Conclusion**
+
+The results make sense within the context of collective behavior and complex systems where interactions are known to lead to emergent properties such as synchronization. The findings suggest focusing on a vicinity radius of around 1.0 for further simulations and potential real-world applications where synchronous behavior is desired.
+
